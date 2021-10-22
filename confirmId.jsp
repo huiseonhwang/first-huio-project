@@ -6,6 +6,8 @@
 <jsp:setProperty property="id" name="dto"/>
 
 <%
+	// git 코드 추가 확인
+	
 	StudyDAO dao = new StudyDAO();
 	boolean result = dao.idCheck(dto);
 	String str = "사용가능";
